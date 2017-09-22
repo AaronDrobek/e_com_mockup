@@ -1,24 +1,44 @@
-.App {
-  text-align: center;
+.app_box{
+  width: 100vw;
+  height: 20vw;
+  padding-bottom: 40vw;
+  background-size: cover;
+  background-image: url('../images/benjamin-faust-7648.jpg');
 }
-
+.footer{
+  background: black;
+  height: 3vw;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+ .selected a{
+  color: white;
+}
+.base_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.App-header {
+  display: flex;
+  width: 100vw;
+  position: fixed;
+  background-color: #222;
+  height: 6vw;
+  color: black;
+}
+.App-header a{
+  /*color: orange;*/
+  margin-left: 2vw;
+}
+.balls_box{
+  padding-top: 20vw;
+  width: 100vw;
+  height: 35vw;
 }
