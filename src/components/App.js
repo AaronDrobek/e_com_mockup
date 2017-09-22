@@ -6,11 +6,11 @@ class App extends Component {
     return (
       <div className="app_box">
         <div className="app_content">
-          
         </div>
-      </div>
-    );
+        </div>
+      );
+    }
   }
-}
+          
 
 export default App;

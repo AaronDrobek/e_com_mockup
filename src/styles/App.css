@@ -5,6 +5,11 @@
   background-size: cover;
   background-image: url('../images/benjamin-faust-7648.jpg');
 }
+.test{
+  border: 1px solid red;
+  width: 40px;
+  height: 65px;
+}
 .footer{
   background: black;
   height: 3vw;
