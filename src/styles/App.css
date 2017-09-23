@@ -1,9 +1,14 @@
 .app_box{
   width: 100vw;
-  height: 20vw;
-  padding-bottom: 40vw;
+  height: 19vw;
+
+  padding-bottom: 35vw;
   background-size: cover;
   background-image: url('../images/benjamin-faust-7648.jpg');
+}
+.pic_box{
+  width: 30vw;
+  height: 30vw;
 }
 .test{
   border: 1px solid red;
@@ -11,8 +16,10 @@
   height: 65px;
 }
 .footer{
+  padding-bottom: 5vw;
   background: black;
-  height: 3vw;
+  position: fixed;
+  height: 6vw;
 }
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -39,10 +46,20 @@
   color: black;
 }
 .App-header a{
-  /*color: orange;*/
+  color: orange;
   margin-left: 2vw;
 }
 .balls_box{
+  padding-top: 20vw;
+  width: 100vw;
+  height: 35vw;
+}
+.bags_box{
+  padding-top: 20vw;
+  width: 100vw;
+  height: 35vw;
+}
+.shoe_box{
   padding-top: 20vw;
   width: 100vw;
   height: 35vw;
