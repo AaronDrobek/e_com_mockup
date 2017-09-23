@@ -11,14 +11,14 @@ export default class Balls extends Component{
     console.log(data, "this is data");
     let match = this.props.match;
     let listBalls = data.map((ball) =>{
-      console.log(ball, "this is the map over");
+    
 
       return(
 
       <div key={ball.id}>
         <h4>Model: {ball.ballName}</h4>
         <h4>Price: ${ball.price}</h4>
-            <NavLink activeClassName="active" className="actorLink"
+            <NavLink activeClassName="active"
             to={`${match.url}/${ball.ballName}`}>
             <img className="pic_box" src={ball.imgFull}/>
             </NavLink>

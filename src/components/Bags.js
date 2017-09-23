@@ -13,11 +13,12 @@ export default class Bags extends Component{
         <div key ={bag.id}>
           <h4>Model: {bag.bagName}</h4>
           <h4>Price: ${bag.price}</h4>
-              <NavLink activeClassName="active" className="actorLink"
-              to={`${match.url}/${bag.bagName}`}>
-              <img className="pic_box" src={bag.imgFull}/>
-              </NavLink>
+          <NavLink activeClassName="active"
+          to={`${match.url}/${bag.bagName}`}>
+          <img className="pic_box" src={bag.imgFull}/>
+          </NavLink>
         </div>
+      
 
       )
     })
