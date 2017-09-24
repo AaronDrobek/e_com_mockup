@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {NavLink} from 'react-router-dom';
 import bowlingball from '../data/bowlingball';
 
 
@@ -9,7 +8,6 @@ export default class Item extends Component{
   render(){
 
     const ball = this.props.match.params.name
-    console.log(this.props.match.params.name, 'this should be the name');
     let oneBall = bowlingball.map((balls) =>{
 
       if(balls.ballName === ball){

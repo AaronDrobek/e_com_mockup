@@ -3,12 +3,10 @@ import bowlingBall from '../data/bowlingball';
 import {NavLink} from 'react-router-dom';
 
 let data = bowlingBall;
-console.log(data, "this is data anything i want");
 
 export default class Balls extends Component{
   render(){
     let data = bowlingBall;
-    console.log(data, "this is data");
     let match = this.props.match;
     let listBalls = data.map((ball) =>{
 

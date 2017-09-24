@@ -7,7 +7,6 @@ export default class Bags extends Component{
   render(){
     let match = this.props.match
     let data = bowlingBag;
-    console.log(data, "this is bag data");
     let listBags = data.map((bag) =>{
       return(
         <div key ={bag.id}>

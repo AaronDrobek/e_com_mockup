@@ -7,7 +7,6 @@ export default class Bags extends Component{
   render(){
     let match = this.props.match;
     let data = bowlingShoe;
-    console.log(data, "this is bag data");
     let oneShoe = data.map((shoe) =>{
       return(
         <div key ={shoe.id}>
