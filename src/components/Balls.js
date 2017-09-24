@@ -3,7 +3,7 @@ import bowlingBall from '../data/bowlingball';
 import {NavLink} from 'react-router-dom';
 
 let data = bowlingBall;
-console.log(data, "this is data");
+console.log(data, "this is data anything i want");
 
 export default class Balls extends Component{
   render(){
@@ -11,18 +11,19 @@ export default class Balls extends Component{
     console.log(data, "this is data");
     let match = this.props.match;
     let listBalls = data.map((ball) =>{
-    
+
 
       return(
 
-      <div key={ball.id}>
-        <h4>Model: {ball.ballName}</h4>
-        <h4>Price: ${ball.price}</h4>
+      <div className="balls_content" key={ball.id}>
+        <h4 className="model_ball">{ball.ballName}</h4>
+        <h4 className="price">Price: ${ball.price}</h4>
             <NavLink activeClassName="active"
             to={`${match.url}/${ball.ballName}`}>
             <img className="pic_box" src={ball.imgFull}/>
             </NavLink>
         </div>
+
 
       )
     })

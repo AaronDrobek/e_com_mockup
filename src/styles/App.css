@@ -22,6 +22,7 @@
   height: 6vw;
 }
 .App-logo {
+  margin-left: 4vw;
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
@@ -29,7 +30,7 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
- .selected a{
+ .selected {
   color: white;
 }
 .base_content{
@@ -42,15 +43,17 @@
   width: 100vw;
   position: fixed;
   background-color: #222;
-  height: 6vw;
+  height: 7vw;
+  /*background-color: lightgrey;*/
   color: black;
 }
 .App-header a{
+  text-decoration: none;
   color: orange;
-  margin-left: 2vw;
+  margin-left: 5vw;
 }
 .balls_box{
-  padding-top: 20vw;
+  padding-top: 10vw;
   width: 100vw;
   height: 35vw;
 }
@@ -65,7 +68,49 @@
   height: 35vw;
 }
 .item_box{
-  padding-top: 20vw;
-  width: 100vw;
+
+  margin-left: 5vw;
+  padding-top: 12vw;
+  width: 80vw;
   height: 35vw;
+}
+.item-content{
+
+}
+.balls_content{
+  margin-bottom: 4vw;
+  text-align: center;
+}
+.price{
+  margin-top: 0vw;
+  color: white;
+  margin-left: 46vw;
+  width: 8vw;
+  background-color: red;
+}
+.model_ball{
+  font-size: 20pt;
+  margin-bottom: .5vw;;
+}
+.right_nav{
+  padding-left: 25vw;
+}
+.right_nav2{
+  /*padding-left: 25vw;*/
+}
+.contact_content{
+  margin-top: 4vw;
+  background-color: rgba(102, 0, 0, 0.5);
+  padding-left: 4vw;
+  margin-left: 26vw;
+  border: 1px solid grey;
+  width: 40vw;
+  height: 20vw;
+}
+.contact_box{
+  background-size: cover;
+  background-image: url("../images/keith-misner-308.jpg");
+  padding-top: 10vw;
+  width: 100vw;
+  height: 45vw;
 }

@@ -11,8 +11,8 @@ export default class Bags extends Component{
     let oneShoe = data.map((shoe) =>{
       return(
         <div key ={shoe.id}>
-          <h4>Model: {shoe.shoeName}</h4>
-          <h4>Price: ${shoe.price}</h4>
+          <h4 className="model_ball"> {shoe.shoeName}</h4>
+          <h4 className="price">Price: ${shoe.price}</h4>
           <NavLink activeClassName="active"
           to={`${match.url}/${shoe.shoeName}`}>
           <img className="pic_box" src={shoe.imgFull}/>
@@ -22,8 +22,8 @@ export default class Bags extends Component{
     })
 
     return(
-      <div className="shoe_box">
-      <div className="shoe_content">
+      <div className="balls_box">
+      <div className="balls_content">
         {oneShoe}
       </div>
       </div>

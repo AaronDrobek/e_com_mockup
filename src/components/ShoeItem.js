@@ -10,6 +10,7 @@ export default class ShoeItem extends Component{
       if(boot.shoeName === shoes){
         return(
           <div key={boot.id}>
+          <img className="pic_box" src={boot.imgFull2}/>
             <img className="pic_box" src={boot.imgFull}/>
             <h4>Model: {boot.shoeName}</h4>
             <h4>Color: {boot.color}</h4>

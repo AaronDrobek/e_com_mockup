@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import logo from '../logo.svg';
 import {NavLink} from 'react-router-dom';
+import pin from '../pin.svg';
 
 
 export default class BaseLayout extends Component{
@@ -9,7 +10,7 @@ export default class BaseLayout extends Component{
       <div className="base_box">
         <div className="base_content">
           <div className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+            <img src={pin} className="App-logo" alt="logo" />
               <h2>
               <NavLink activeClassName="selected" to='/'>Home</NavLink>
                 </h2>
@@ -22,6 +23,12 @@ export default class BaseLayout extends Component{
                     <h2>
                     <NavLink activeClassName="selected" to='/shoes'>Shoes</NavLink>
                       </h2>
+                      <h2>
+                      <NavLink className="right_nav" activeClassName="selected" to='/about'>About</NavLink>
+                        </h2>
+                        <h2>
+                        <NavLink className="right_nav2" activeClassName="selected" to='/contact'>Contact</NavLink>
+                          </h2>
           </div>
         </div>
             {this.props.children}

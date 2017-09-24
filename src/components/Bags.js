@@ -11,21 +11,21 @@ export default class Bags extends Component{
     let listBags = data.map((bag) =>{
       return(
         <div key ={bag.id}>
-          <h4>Model: {bag.bagName}</h4>
-          <h4>Price: ${bag.price}</h4>
+          <h4 className="model_ball">{bag.bagName}</h4>
+          <h4 className="price">Price: ${bag.price}</h4>
           <NavLink activeClassName="active"
           to={`${match.url}/${bag.bagName}`}>
           <img className="pic_box" src={bag.imgFull}/>
           </NavLink>
         </div>
-      
+
 
       )
     })
 
     return(
-      <div className="bags_box">
-      <div className="bags_content">
+      <div className="balls_box">
+      <div className="balls_content">
         {listBags}
       </div>
       </div>

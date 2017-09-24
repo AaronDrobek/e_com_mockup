@@ -16,7 +16,8 @@ export default class Item extends Component{
 
         return(
           <div key={balls.id}>
-          <img className="pic_box" src={balls.imgFull}/>
+          <img className="pic_box" src={balls.imgFull2}/>
+          <img className="pic_box" src={balls.imgFull}  />
             <h4>Model: {balls.ballName}</h4>
             <h4>Core Type: {balls.coreType}</h4>
             <h4>Cover Stock: {balls.coverstock}</h4>
