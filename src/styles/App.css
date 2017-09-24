@@ -23,7 +23,7 @@
 }
 .App-logo {
   margin-left: 4vw;
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 8s linear;
   height: 80px;
 }
 @keyframes App-logo-spin {
@@ -99,7 +99,7 @@
   /*padding-left: 25vw;*/
 }
 .contact_content{
-  margin-top: 4vw;
+  margin-top: 8vw;
   background-color: rgba(102, 0, 0, 0.5);
   padding-left: 4vw;
   margin-left: 26vw;
@@ -113,4 +113,20 @@
   padding-top: 10vw;
   width: 100vw;
   height: 45vw;
+}
+.about_box{
+  background-size: cover;
+  padding-top: 10vw;
+  width: 100vw;
+  height: 45vw;
+  background-image: url('../images/daniel-alvarez-sanchez-diaz-92964.jpg');
+}
+.about-content{
+  margin-left: 18vw;
+  font-size: 11pt;
+  color: black;
+  background: rgba(255, 220, 30, 0.5);
+  border: solid 6px white;
+  width: 70vw;
+  height: 40vw;
 }
