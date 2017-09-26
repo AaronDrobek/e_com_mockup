@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
-import pin from '../pin.svg';
+import pin from '../2000px-Pin_svg (77)_flat_new.svg';
 
 
 export default class BaseLayout extends Component{
